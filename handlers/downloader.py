@@ -79,10 +79,10 @@ class get_link_atributes:
         elif link.startswith("http://www.visionias.in/student/videoplayer_v2/?"):
             url = ParseLink.vision_mpd_link(link)
             return url
-        elif link.startswith("https://d1d34p8vz63oiq.cloudfront.net/"):
+        elif link.startswith("https://d2bps9p1kiy4ka.cloudfront.net/"):
             url = ParseLink.is_pw(link)
             return url
-        elif link.startswith("https://d1d34p8vz63oiq.cloudfront.net/"):
+        elif link.startswith("https://d2bps9p1kiy4ka.cloudfront.net/"):
             url = ParseLink.is_pw(link)
             return url
         elif "drive" in link:
