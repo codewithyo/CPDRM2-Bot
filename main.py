@@ -13,12 +13,12 @@ from tglogging import TelegramLogHandler
 # Config 
 class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6662067892:AAGHRuBY4_A2Vft3VP34H1TnVA_mz5Z8azw")
-    API_ID = int(os.environ.get("API_ID",  "23881274"))
-    API_HASH = os.environ.get("API_HASH", "c867262073a58ccdebcae19601c5bf5f")
+    API_ID = int(os.environ.get("API_ID",  "23634056"))
+    API_HASH = os.environ.get("API_HASH", "f2debf49c2f57bad88086ecd17cb5df3")
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     SESSIONS = "./SESSIONS"
 
-    AUTH_USERS = os.environ.get('AUTH_USERS', '7156412102').split(',')
+    AUTH_USERS = os.environ.get('AUTH_USERS', '5082207960').split(',')
     for i in range(len(AUTH_USERS)):
         AUTH_USERS[i] = int(AUTH_USERS[i])
 
